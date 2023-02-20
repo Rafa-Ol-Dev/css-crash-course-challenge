@@ -1,0 +1,32 @@
+body {
+  background-color: #111426;
+  color: #fff;
+  font-family: monospace;
+  font-size: 16px;
+}
+
+.container {
+  padding: 30px;
+  margin: 20px;
+  border: 1px solid white;
+  background-color: #1B2440;
+  box-shadow: 1px 0px 2px 1px #fff;
+}
+
+a {
+  color: #93AEBF;
+}
+a:hover {
+  font-size: 1.125rem;
+  font-weight: bold;
+}
+
+.photo {
+  width: 250px;
+  border: 1px solid #93AEBF;
+  border-radius: 5px;
+}
+.photo:hover {
+  width: 600px;
+  transition: 2.5s;
+}
